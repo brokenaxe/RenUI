@@ -1,0 +1,52 @@
+/* RenUI Custom Styling v1.0.0 (http://getrenui.com)
+ * Copyright 2016/7 RenUI
+ * Licensed under MIT (https://opensource.org/licenses/MIT) 
+ */
+ 
+ html {
+	background-color: #1d232a;
+}
+.bg.custom {
+	color: rgba(255, 255, 255, 1.0);
+}
+.bg.custom::before,
+input.bg.custom {
+	background-color: rgba(0,128,201,1.00) !important;
+}
+.shape.after.with-custom::after {
+	border-bottom-color: rgba(0,128,201,1.00);
+}
+.shape.before.with-custom::before {
+	border-top-color: rgba(0,128,201,1.00);
+}
+a.color,
+h1.color,
+h2.color,
+h3.color,
+h4.color,
+h5.color,
+h6.color,
+em.color,
+i.color,
+strong.color,
+p.color,
+p.acolor a {
+	color: rgba(0,128,201,1.00);
+}
+div.color,
+nav li.color a {
+	background-color: rgba(0,128,201,1.00) !important;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+
+
+.status.online::before {
+    background-color: #2dc100;
+}
+.status.busy::before {
+    background-color: #e74c3c;
+}
+.base-responsive .bg.img {
+    background-image: url("/background.png");
+}
