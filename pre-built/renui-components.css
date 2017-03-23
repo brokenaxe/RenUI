@@ -108,8 +108,13 @@
 }
 .timeline li.left,
 .timeline li.right {
-    width: calc(50% + 23px);
+    width: calc(50% + 22px);
 }
+.timeline.side li.left,
+.timeline.side li.right {
+    width: calc(50% + 43px);
+}
+
 .timeline li.left > img,
 .timeline li.right .holder {
 	float: right;
@@ -187,6 +192,14 @@
     margin: 0 auto 10px;
     width: 10px;
 }
+.comments.auto-size li.left .text,
+.comments.auto-size li.right .text {
+    width: auto !important;
+}
+.comments.auto-size li.left .text {
+    float: right;
+}
+
 .masonry {
 	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
