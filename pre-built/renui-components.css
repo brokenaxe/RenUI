@@ -6,7 +6,7 @@
     width: 100%;
 }
 .comments h6 {
-    display: none;
+    display: none !important;
 }
 .comments li {
     font-size: 14px;
@@ -72,7 +72,7 @@
     float: left;
     margin-bottom: -2px;
     padding: 10px 12px;
-    width: calc(100% - 24px);
+    width: 100%;
 }
 .comments li .holder .time {
     display: inline-block;
