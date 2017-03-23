@@ -76,10 +76,10 @@ input.bg.white {
 .bg.white .comments li.right .holder::after {
     border-color: transparent transparent transparent rgba(0, 0, 0, 0.1);
 }
-.bg.black .timeline li img {
+.bg.black .timeline li > img {
 	box-shadow: 0 0 0 4px rgba(0, 0, 0, 1), 0 2px 0 rgba(255, 255, 255, 0.08) inset, 0 3px 0 4px rgba(255, 255, 255, 0.05);
 }
-.bg.white .timeline li img {
+.bg.white .timeline li > img {
 	box-shadow: 0 0 0 4px rgba(255, 255, 255, 1), 0 2px 0 rgba(0, 0, 0, 0.08) inset, 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .bg.black .timeline li.right .holder::after {

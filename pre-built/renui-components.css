@@ -28,7 +28,7 @@
     text-align: center;
     text-transform: uppercase;
 }
-.comments li img {
+.comments li > img {
     border-radius: 50%;
     float: left;
     height: 30px;
@@ -110,7 +110,7 @@
 .timeline li.right {
     width: calc(50% + 23px);
 }
-.timeline li.left img,
+.timeline li.left > img,
 .timeline li.right .holder {
 	float: right;
 }
@@ -129,7 +129,7 @@
 .timeline li.time {
     float: left;
 }
-.timeline li img {
+.timeline li > img {
 	margin: 2px 7px 6px !important;
 }
 .timeline li.right img,
