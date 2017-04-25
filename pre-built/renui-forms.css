@@ -255,3 +255,24 @@ form label input {
 	padding: 0;
 	margin: 0;
 }
+select:active, select:hover {
+  outline: none;
+  background-color: #fff !important;
+  color: #000;
+  padding-left: 34px;
+}
+form fieldset.extended label {
+    color: inherit;
+    font-size: 13px;
+    margin: 0;
+    padding: 9px 12px;
+    position: absolute;
+    text-align: left;
+    width: auto;
+    z-index: 100;
+}
+form fieldset.extended select, form fieldset.extended textarea, form fieldset.extended input {
+    max-width: 100%;
+    padding-left: 30px;
+    width: 100%;
+}

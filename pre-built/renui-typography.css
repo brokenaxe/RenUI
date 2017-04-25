@@ -244,3 +244,6 @@ ol {
     white-space:nowrap; 
     text-overflow: ellipsis;
 }
+h1.nospace-x2, h2.nospace-x2, h3.nospace-x2, h4.nospace-x2, h5.nospace-x2, h6.nospace-x2 {
+    margin: -6px 0 10px;
+}

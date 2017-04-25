@@ -399,3 +399,9 @@
 .space-top {
 	margin-top: 6px !important;
 }
+.width-line {
+	width: 1px;
+}
+.height-line {
+	height: 1px;
+}
