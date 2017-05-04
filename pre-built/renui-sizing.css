@@ -383,6 +383,10 @@
 	margin-bottom: 6px !important;
 	margin-right: 6px !important;
 }
+.space-br-d2 {
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
 .space-b,
 .space {
 	margin-bottom: 6px !important;
@@ -398,6 +402,15 @@
 .space-t,
 .space-top {
 	margin-top: 6px !important;
+}
+.space-l-d2 {
+	margin-left: -6px;
+}
+.space-l-d25 {
+	margin-left: -10px;
+}
+.space-l-d3 {
+	margin-left: -12px;
 }
 .width-line {
 	width: 1px;

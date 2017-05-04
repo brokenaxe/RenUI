@@ -276,3 +276,73 @@ form fieldset.extended select, form fieldset.extended textarea, form fieldset.ex
     padding-left: 30px;
     width: 100%;
 }
+.label-f > label {
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+.checkbox,
+.checkbox-d2 {
+    position: relative;
+}
+.checkbox input[type="checkbox"],
+.checkbox-d2 input[type="checkbox"] {
+    visibility: hidden;
+}
+.checkbox label:hover::after,
+.checkbox-d2 label:hover::after {
+	opacity: 0.7;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox-d2 input[type="checkbox"]:checked + label::after {
+    opacity: 1;
+}
+.checkbox label::after,
+.checkbox-d2 label::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #333 #333;
+    border-image: none;
+    border-style: none none solid solid;
+    border-width: medium medium 3px 3px;
+    content: "";
+    height: 4px;
+    left: 6px;
+    opacity: 0.2;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 10px;
+}
+.checkbox input:disabled+label,
+.checkbox-d2 input:disabled+label,
+.checkbox input:disabled+label:hover::after,
+.checkbox-d2 input:disabled+label:hover::after {
+	opacity: 0.3 !important;
+}
+.checkbox label,
+.checkbox-d2 label {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height: 26px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 26px;
+}
+.checkbox-d2 label::after {
+	border-width: medium medium 2px 2px;
+    height: 3px;
+    left: 4px;
+    top: 4px;
+    width: 6px;
+}
+.checkbox-d2 label {
+    height: 16px;
+    width: 16px;
+}
