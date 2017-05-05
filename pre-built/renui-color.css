@@ -133,82 +133,82 @@
 	color: rgba(0, 0, 0, 0.6);
 }
 .bg.navy::before,
-field.bg.navy,
+input.bg.navy,
 select.bg.navy {
 	background-color: #001F3F;
 }
 .bg.blue::before,
-field.bg.blue,
+input.bg.blue,
 select.bg.blue {
 	background-color: #0074D9;
 }
 .bg.aqua::before,
-field.bg.aqua,
+input.bg.aqua,
 select.bg.aqua {
 	background-color: #7FDBFF;
 }
 .bg.teal::before,
-field.bg.teal,
+input.bg.teal,
 select.bg.teal {
 	background-color: #39CCCC;
 }
 .bg.olive::before,
-field.bg.olive,
+input.bg.olive,
 select.bg.olive {
 	background-color: #3D9970;
 }
 .bg.green::before,
-field.bg.green,
+input.bg.green,
 select.bg.green {
 	background-color: #2ECC40;
 }
 .bg.lime::before,
-field.bg.lime,
+input.bg.lime,
 select.bg.lime {
 	background-color: #01FF70;
 }
 .bg.yellow::before,
-field.bg.yellow,
+input.bg.yellow,
 select.bg.yellow {
 	background-color: #FFDC00;
 }
 .bg.orange::before,
-field.bg.orange,
+input.bg.orange,
 select.bg.orange {
 	background-color: #FF851B;
 }
 .bg.red::before,
-field.bg.red,
+input.bg.red,
 select.bg.red {
 	background-color: #FF4136;
 }
 .bg.fuchsia::before,
-field.bg.fuchsia,
+input.bg.fuchsia,
 select.bg.fuchsia {
 	background-color: #F012BE;
 }
 .bg.purple::before,
-field.bg.purple,
+input.bg.purple,
 select.bg.purple {
 	background-color: #B10DC9;
 }
 .bg.maroon::before,
-field.bg.maroon,
+input.bg.maroon,
 select.bg.maroon {
 	background-color: #85144B;
 }
 .bg.white::before,
-field.bg.white,
+input.bg.white,
 select.bg.white {
 	background-color: #FFFFFF;
 }
 .bg.gray::before,
-field.bg.gray,
+input.bg.gray,
 select.bg.gray {
 	background-color: #AAAAAA;
 }
 .bg.silver::before,
-field.bg.silver,
+input.bg.silver,
 select.bg.silver {
 	background-color: #DDDDDD;
 }
